@@ -1,0 +1,86 @@
+
+body{
+    background-image: url(../static/img/fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-brand, #logo{
+    margin-left: 10px;
+    font-size: 18pt;
+}
+
+#fundo_pag{
+    background-color: white;
+    width: 1100px;
+    height: 1100px;
+    display: block;
+    margin:auto;
+    padding: 25px;
+    text-align: justify;         
+}
+
+.navbarNav{
+    margin-right: 15px;
+    font-size: 15pt;
+}
+
+.nav-item, .nav-link{
+    font-size: 17px; 
+}
+
+header{
+    width: 1100px;
+    display: block;
+    margin:auto;   
+}
+
+.f_cab{
+    width: 1100px;
+    display: block;
+    margin:auto;
+}
+
+nav{
+    height: 75px; 
+}
+
+#foto_perfil{
+    float: right;
+    padding: 15px;
+}
+
+#foto_p1{
+    float: left;
+    padding: 15px;
+}
+
+footer{
+    background-color: black;
+    margin:auto;
+    display: block;
+    color:white;
+}
+
+#bt_git{ 
+    text-align: center;
+}
+
+#bt_contato{
+    width: 500px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+#c_nome, #c_email, #c_ass, #c_msg{
+    width: 500px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+#c_msg{
+    width: 500px;
+    height: 200px;
+    resize: none;       
+}
