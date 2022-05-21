@@ -52,12 +52,11 @@ python -m venv env
  pip install -r requirements.txt
 ```
 :arrow_right: Execute os seguintes comandos para iniciar:
-
-```bash
- flask run
-```
 ```bash
  set FLASK_ENV=development
+```
+```bash
+ flask run
 ```
 :arrow_right: Copie e cole o link que aparecer na barra de endereço do seu navegador para visualizar o portfólio.
 
