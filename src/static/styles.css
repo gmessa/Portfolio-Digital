@@ -1,0 +1,67 @@
+
+body{
+    background-color: #f6f6f6;
+}
+.navbar-brand, #logo{
+    margin-left: 10px;
+    font-size: 18pt;   
+}
+
+nav{
+    position: fixed !important;  
+    width: 100% !important;    
+}
+
+.nav-item{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: black !important;
+}
+
+.navbar-toggler-icon {
+    border: 1px solid #f6f6f6 !important;
+    font-size: 25px !important;    
+}
+
+#fundo_pag{
+    background-color: #f6f6f6;
+    display: block;
+    margin:auto;
+    padding: 25px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    text-align: justify;
+         
+}
+
+#foto_perfil{
+    border: 8px solid black;
+}
+
+footer{
+    background-color: black;
+    margin:auto;
+    display: block;
+    color:#f6f6f6;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+  
+}
+#bt_git{ 
+    text-align: center;
+    
+}
+
+#bt_site:hover{
+    background-color: #f6f6f6;
+    color: black;
+    
+}
+
+#bt_site{
+    background-color: black;
+    border: 2px solid black !important;
+}
+
