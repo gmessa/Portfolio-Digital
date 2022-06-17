@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black; ">
       
       <img id="logo" src="../static/img/logo.png" alt="Avatar Logo" style="width:50px;" class="rounded-pill">
-      <a style="color: white !important; " class="navbar-brand" href="#">Gustavo Messa</a>
+      <a style="color: white !important; "  class="navbar-brand-letra" href="#">Gustavo Messa</a>
 
     
       <button  class="navbar-toggler" style=" float: right; border: none; box-shadow: 0 0 0 0;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,25 +48,27 @@
   <content id="fundo_pag">
 
   <div style=" text-align: center; padding-bottom: 10px;">
-      <img id="foto_perfil" src="../static/img/f_perfil.jpg" alt="Avatar perfil" style="width:300px;">
+    <picture>
+      <source media="(max-width: 700px)" srcset="../static/img/f_perfil_p.jpg" type="image/jpg">
+      <source media="(max-width: 1000px)" srcset="../static/img/f_perfil_m.jpg" type="image/jpg">
+        <img id="foto_perfil" src="../static/img/f_perfil_g.jpg" alt="Avatar perfil" style="width:300px;">
+    </picture>
   </div>
   
-  <div style="text-align:center;">
-    <h3>Sobre</h3>
-    <p>
-      Meu nome é Gustavo Messa tenho 27 anos já tive experiência como professor de segurança cibernética com aulas
-      realizadas de forma remota.
-      Conhecimento em práticas de segurança na utilização da Internet e dispositivos computacionais.
-      Domínio em Windows 8.1, 10, Pacote Office, edição de vídeo e imagem e desenvolvimento de sites.
-    </p>
-
+  <div style="text-align:center ;" >
+    <h3>Gustavo Messa</h3>
+    <dd>Tenho 27 anos.
+    </dd>
+    <dd>Estudante de Desenvolvimento de Software Multiplataforma.
+    </dd>
+    
     <h3>Formação Académica</h3>
 
       <h5>Desenvolvimento de Software Multiplataforma</h5>
     <dd>Faculdade de Tecnologia de São José dos Campos
-    <dd>
+    </dd>
     <dd>fev./2022 (cursando)
-    <dd>
+    </dd>
 
       <h5>CCNA: Introduction to Networks</h5>
     <dd>Cisco
