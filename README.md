@@ -7,6 +7,8 @@ Matéria: Design Digital
 
 Professor: Fabrício Galende Marques de Carvalho.
 
+Acessar Potfólio (Heroku) - https://p-gmessa.herokuapp.com
+
 # Descrição do repositório
 <p>:file_folder:Pasta doc:<p> 
 <ul>
@@ -62,7 +64,7 @@ python -m venv env
 :arrow_right: Copie e cole o link que aparecer na barra de endereço do seu navegador para visualizar o portfólio.
 <br><br>
 
-:desktop_computer:Acessar Potfólio - https://p-gmessa.herokuapp.com
+
 
 
     
