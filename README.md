@@ -60,6 +60,9 @@ python -m venv env
  flask run
 ```
 :arrow_right: Copie e cole o link que aparecer na barra de endereço do seu navegador para visualizar o portfólio.
+<br><br>
+
+:desktop_computer:Acessar Potfólio - https://p-gmessa.herokuapp.com
 
 
     
